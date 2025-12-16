@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://kit.fontawesome.com/02aaebee2b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="continer">
+            <nav>
+                <h1><span>P</span>ortfolio</h1>
+                <ul id="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact as</a></li>
+               <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+              <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+        </div>
+
+        <div class="text">
+            <p>JAVA FULLSTACK DEVELOPER</p>
+            <h1>Hi, I'm <span>Logeshwaran</span> <br> From Salem</h1>
+            
+
+        </div>
+         <div class="stick" onclick="scrollToTop()">
+    <i class="fa-solid fa-arrow-up"></i>
+</div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="contaier">
+            <div class="row">
+               <div class="col1">
+                   <div class="img-box">
+                        <img src="profile.jpg" alt="Profile Image">
+    </div>
+     </div>
+
+                <div class="col2">
+                    <h1 class="sub">About me</h1>
+                    <p>Hi, I'm Logeshwaran a third-year Computer Science student with a strong passion for java programming. I am a quick learner with a creative mindset,consistently eager to grasp new concepts and apply them effectively. <br> I thrive on problem-solving and take pride in writing clean, efficient, and maintainable code.Currrently I am dedicated to continuously enhancing my skills through self-learing and hands-on experience.</p>
+                     
+                    <div class="tab-tittles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skils</p>
+                     <p class="tab-links" onclick="opentab('exprience')">Exprience</p>
+                      <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-content active-tab" id="skills" >
+                    <ul>
+                        <li><span> Web-Developement</span> <br> Html,Css,JavaScripy</li>
+                         <li><span> Java Programming</span> <br> Core-java,Oop,Jdbc Connection</li>
+                          <li><span> DataBase</span> <br> Mysql,Mongodb(basics)</li>
+                    </ul>
+                </div>
+                 <div class="tab-content" id="exprience">
+                    <ul>
+                        <li><span> CodSoft</span> <br> Internship (Java Programming)</li>
+                         <li><span> Code Alpha</span> <br> Internship(Java Programming)</li>
+                         
+                    </ul>
+                </div>
+                 <div class="tab-content" id="education">
+                    <ul>
+                        
+                         <li><span> (HSL)12th</span> <br>Government Higher Secondary School,DasanaickenPatty, <br>score : 77.1 % </li>
+                          <li><span> BE-CSE</span> <br> Mahendra institute of Technology currently pursuvig</li>
+                    </ul>
+                </div>
+               </div>
+               
+            </div>
+
+        </div>
+    </div>
+    <!-- project -->
+
+    <div id="project">
+        <div class="continer">
+                  <h1 class="sub">Projects</h1>
+                  <div class="project-list">
+
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h1>web-Development</h1>
+                        <p>I build responsive and interactive web applications using HTML, CSS, and JavaScript.
+My projects focus on clean UI design, smooth user interaction, and real-time functionality.
+
+I have built:
+
+Digital Clock (real-time JavaScript)
+
+Calculator application
+
+Small interactive UI designs and animations</p>
+                        <a href="https://github.com/logesh760?tab=repositories">GitHub link...</a>
+                    </div>
+
+                    
+                    <div>
+                        <i class="fa-regular fa-address-card"></i>
+                        <h1>Java Programming</h1>
+                        <p> I develop core Java applications with a strong focus on logic building and user interaction.
+My projects are designed to improve problem-solving skills and real-world application development.
+
+I have built:
+
+Number Guessing Game
+
+Simple Notepad Application
+
+Currency Converter
+
+Student Grade Display System
+
+ATM Interface Simulation
+
+Simple Snake Game</p>
+                         <a href="https://github.com/logesh760?tab=repositories">GitHub link...</a>
+                    </div>
+
+                    
+                    <div>
+                     <i class="fa-solid fa-database"></i>
+                        <h1>DataBase </h1>
+                        <p>I work with databases in Java applications to store, retrieve, and manage data efficiently.
+I have hands-on experience integrating databases with Java using JDBC and understanding NoSQL basics.
+
+I have worked on:
+
+Java CRUD operations using JDBC
+(Create, Read, Update, Delete)
+
+MySQL database integration with Java programs</p>
+                        <a href="https://github.com/logesh760?tab=repositories">GitHub link...</a>
+                    </div>
+
+                  </div>
+        </div>
+    </div>
+    <!-- works -->
+     <div id="works">
+
+        <div class="continer">
+             <h1 class="sub">My Works</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="business-accessories-objects-top-view.jpg" alt="">
+                    <div class="layer">
+                        <h3>Freelancing</h3>
+                        <p>I build clean and responsive static websites for clients by effectively using AI tools along with web development technologies.
+My focus is on fast delivery, modern design, and client satisfaction.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i> learn more</a>
+                    </div>
+                </div>
+                  <div class="work">
+                    <img src="videography-specialist-editing-new-movie-clip-montage.jpg" alt="">
+                     <div class="layer">
+                        <h3>Video Editing</h3>
+                        <p>I create basic to creative and interactive videos with a focus on clear storytelling and visual appeal.
+My editing style aims to keep content engaging and easy to understand.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i> learn more</a>
+                    </div>
+                </div>
+                  <div class="work">
+                    <img src="resume-apply-work-form-concept.jpg" alt="">
+                     <div class="layer">
+                        <h3>AI-Based ATS-Friendly Resume Creation</h3>
+                        <p>I create ATS-friendly resumes using AI tools to help candidates pass applicant tracking systems and improve interview shortlisting chances.
+Each resume is optimized with the right keywords, formatting, and structure based on job roles</p>
+                        <a href="#"><i class="fa-solid fa-link"></i> learn more</a>
+                    </div>
+                </div>
+             </div>
+
+             <a href="#" class="btn"> See more</a>
+
+        </div>
+     </div>
+     <!-- contact -->
+      <div id="contact">
+        <div class="continer">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  logeshm15112005@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 7603993833</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/logeshwaran-m-501275347?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/logesh760?tab=repositories"><i class="fa-brands fa-square-github"></i></a> 
+                    <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+
+                    </div>
+                  <a href="Logeshwaran_Resume_Modern_Professional.pdf"
+   class="btn btn2"
+   target="_blank">
+   Download CV
+</a>
+
+                </div>
+                   <div class="contact-right">
+
+                    <form name="submit-to-google-sheet" >
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                   </div>
+
+                
+            </div>
+           
+        </div>
+         <div class="copyright">
+                <p>copyright &copy; Logeshwaran.</p>
+            </div>
+      </div>
+
+    <script>
+    var tablinks = document.getElementsByClassName('tab-links');
+    var tabcontents = document.getElementsByClassName('tab-content');
+
+    function opentab(tabname){
+        for (let tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for (let tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    var menu1 = document.getElementById('menu');
+
+    function openMenu(){
+        menu1.style.right = "0";
+    }
+
+    function closeMenu(){
+        menu1.style.right = "-200px";
+    } 
+    function scrollToTop(){
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+window.addEventListener("scroll", function(){
+    const stick = document.querySelector(".stick");
+    if(window.scrollY > 300){
+        stick.style.display = "block";
+    } else {
+        stick.style.display = "none";
+    }
+});
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzh1ywKqvvj3it4VGBR61mr-y3cE7Yz6Fjr6PUomysd87RAK6FYQIfnFiMgGW10Yo0Y/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById('msg')
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Message set successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+   
+
+
+</body>
+</html>
